@@ -1,0 +1,20 @@
+/* Make the heading blue */
+h1 {
+    color: blue;
+}
+
+/* Set the bio text font size to 14px */
+p {
+    font-size: 14px;
+}
+
+/* Add a border around the image */
+img {
+    border: 2px solid black;
+    /*5b) */
+}
+@media (min-width: 768px) {
+    body {
+        background-color: lightgreen;
+    }
+}

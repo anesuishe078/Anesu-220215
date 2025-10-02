@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the CSS file -->
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+<form id="registrationForm" novalidate>
+    <label for="fullName">Full Name:</label><br>
+    <input type="text" id="fullName" name="fullName" required>
+    <span class="error" id="nameError"></span><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required>
+    <span class="error" id="emailError"></span><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required minlength="8">
+    <span class="error" id="passwordError"></span><br><br>
+
+    <button type="submit">Register</button>
+</form>
+
+<p id="successMessage"></p>
+
+    <button id="colorBtn">Change Background Color</button>
+
+    <h1>Anesuishe Sibanda</h1>
+
+    <p>Wassup, I'm a student who loves learning new things. I'm interested in technology, games, and music.</p>
+
+    <img src="profile.jpg" alt="Profile Picture" width="200">
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Playing COD</li>
+        <li>Drawing</li>
+        <li>Blasting some tunes</li>
+    </ul>
+        <!-- Button to greet user -->
+    <button onclick="showGreeting()">Click to Greet</button>
+    <p id="greeting"></p>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
